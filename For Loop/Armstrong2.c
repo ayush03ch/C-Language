@@ -8,7 +8,7 @@ int main()
 	int n;
 	printf("Enter n: ");
 	scanf("%d",&n);
-	int num,m;
+	int num;
 	for(int i=1;i<=n;i++)
 	{
 		int s=0,count=0;
@@ -16,19 +16,20 @@ int main()
 		num = i;
 		while(num!=0)
 		{
-			num=num/10;
+			num /= 10;
 			count++;
 		}
 
 		num=i;
 		while(num!=0)
 		{
+			int m=0;
 			m=num%10;
-			s = s + (double)pow(m,count);
+			s = s + ceil(pow(m,count));   //ceil function removes rounding errors caused by pow function
 			num = num/10;
 		}
 
-		if(i==s)
+		if(s==i)
 		printf("%d ",s);
 	}
 		return 0;
