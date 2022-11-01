@@ -6,7 +6,7 @@ int main()
 int k,l,m,i,c,n1,n2;
 for(i=1;i<=1000;i++)
     {
-		m = i%10;
+	    m = i%10;
 	    n1 = i/10;
 	    l = n1%10;
 	    n2 = n1/10;
