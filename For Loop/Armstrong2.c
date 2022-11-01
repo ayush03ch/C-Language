@@ -15,8 +15,7 @@ int main()
 
 		num = i;
 		while(num!=0)
-		{
-			num /= 10;
+		{	num /= 10;
 			count++;
 		}
 
