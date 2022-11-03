@@ -23,7 +23,6 @@ int main()
   a = a-b;
   printf("a=%d b=%d",a,b);
   }
-  
   else printf("Error");
   return 0;
   }
