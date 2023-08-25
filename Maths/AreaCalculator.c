@@ -1,3 +1,4 @@
+//Program to calculate the area of various shapes
 #include<stdio.h>
 int main()
 { int s,b,h1,h2,sb,A2,s3,lb,h3,r,mr,nr;
