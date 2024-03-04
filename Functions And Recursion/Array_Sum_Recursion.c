@@ -1,4 +1,4 @@
-//WAP to calculate summ of array elements using recursion
+//to calculate summ of array elements using recursion
 #include<stdio.h>
 int arraysum(int arr[],int n)
 {
